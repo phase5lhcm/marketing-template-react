@@ -4,6 +4,8 @@ import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Pricing from "./Pricing";
 import Testimonials from "./Testimonials";
+import FAQPage from "./FAQPage";
+import ContactForm from "./Contact";
 
 const HomePage = () => {
   return (
@@ -12,6 +14,8 @@ const HomePage = () => {
       <Hero />
       <Pricing />
       <Testimonials />
+      <FAQPage />
+      <ContactForm />
     </div>
   );
 };

@@ -48,7 +48,7 @@ header .logo img {
   }
   .nav-menu {
     position: fixed;
-    left: 0;
+    left: -100%;
     flex-direction: column;
     justify-content: center;
     background-color: var(--darkgrey);

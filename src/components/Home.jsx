@@ -6,6 +6,7 @@ import Pricing from "./Pricing";
 import Testimonials from "./Testimonials";
 import FAQPage from "./FAQPage";
 import ContactForm from "./Contact";
+import Footer from "./Footer";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Testimonials />
       <FAQPage />
       <ContactForm />
+      <Footer />
     </div>
   );
 };
